@@ -1,0 +1,17 @@
+{
+  "name": "Building-A-Web-App-From-Scratch-AngularJS",
+  "version": "1.0.0",
+  "description": "A contacts sample AngularJS app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "carlosavila.ce@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.9.0",
+    "bourne": "^0.4.0",
+    "express": "^4.9.5"
+  }
+}
