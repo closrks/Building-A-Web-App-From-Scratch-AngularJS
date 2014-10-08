@@ -21,7 +21,7 @@ angular.module('ContactsApp')
         record: '=', // two way binding
         field: '@',
         live: '@',
-        require: '@'
+        required: '@'
       },
       link: function ($scope, element, attr) {
 

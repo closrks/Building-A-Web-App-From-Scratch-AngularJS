@@ -1,16 +1,1 @@
-[{
-  "id": 1,
-  "userId": 1,
-  "firstName": [ "Jack", "text" ],
-  "lastName": [ "Rackum", "text" ]
-}, {
-  "id": 2,
-  "userId": 1,
-  "firstName": [ "Ellery", "text" ],
-  "lastName": [ "Queen", "text" ]
-}, {
-  "id": 3,
-  "userId": 1,
-  "firstName": [ "Maria", "text" ],
-  "lastName": [ "Quinn", "text" ]
-}]
+[{"id":1,"userId":1,"firstName":["Jack","text"],"lastName":["Rackum","text"]},{"id":2,"userId":1,"firstName":["Ellery","text"],"lastName":["Queen","text"]},{"id":3,"userId":1,"firstName":["Maria","text"],"lastName":["Quinn","text"]},{"firstName":["test","text"],"lastName":["user","text"],"email":["","email"],"homePhone":["","tel"],"cellPhone":["","tel"],"birthday":["","date"],"website":["","url"],"address":["","text"],"userId":1,"id":4},{"firstName":["Somebody","text"],"lastName":["New","text"],"email":["","email"],"homePhone":["","tel"],"cellPhone":["","tel"],"birthday":[null,"date"],"website":["","url"],"$resolved":true,"userId":1,"id":5},{"firstName":["test","text"],"lastName":["a","text"],"email":["","email"],"homePhone":["","tel"],"cellPhone":["dsfsdfsd","tel"],"birthday":[null,"date"],"website":["","url"],"address":["","text"],"$resolved":true,"userId":1,"id":6}]
