@@ -12,6 +12,9 @@ angular.module('ContactsApp', ['ngRoute', 'ngResource', 'ngMessages'])
       .when('/contacts/:id', {
         controller: 'SingleController',
         templateUrl: 'views/single.html'
+      })
+      .otherwise({
+        redirectTo: '/contacts'
       });
     $locationProvider.html5Mode(true); // sets hashbang
   });

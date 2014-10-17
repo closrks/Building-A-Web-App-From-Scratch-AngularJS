@@ -6,10 +6,6 @@ var db = new Bourne('data.json');
 var router = express.Router();
 
 router
-  .use(function (req, res, next) {
-    if (!req.user) req.user = { id: 1 };
-    return next();
-  })
   .use(bodyParser.json())
   .route('/contact')
     .get(function (req, res) {
