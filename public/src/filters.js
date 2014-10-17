@@ -17,7 +17,6 @@ angular.module('ContactsApp')
       var result = {};
       angular.forEach(obj, function (val, key) {
         if (key !== query) {
-          console.log('key')
           result[key] = val;
         }
       });

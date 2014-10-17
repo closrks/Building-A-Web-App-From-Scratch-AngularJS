@@ -12,7 +12,7 @@ angular.module('ContactsApp')
     $scope.sort.order = false; // descending
 
     $scope.show = function (id) {
-      $location.url('/contact/' + id);
+      $location.url('/contacts/' + id);
     };
   })
   .controller('NewController', function ($scope, Contact, $location) {
@@ -35,4 +35,11 @@ angular.module('ContactsApp')
         $location.url('/contacts');
       }
     };
+  })
+  .controller('SingleController', function ($scope, $location, Contact, $routeParams) {
+    $scope.contact = Contact.get({ id: parseInt($routeParams.id, 10) });
+    $scope.delete = function () {
+      $scope.contact.$delete();
+      $location.url('/contacts');
+    }
   });
